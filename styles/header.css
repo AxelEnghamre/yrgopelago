@@ -3,6 +3,9 @@ header {
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to bottom, var(--crayola), var(--puff));
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }

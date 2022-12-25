@@ -32,10 +32,21 @@ $dotenv->load();
 <body>
      <header>
           <h1><?= $_ENV['HOTEL_NAME'] ?></h1>
+          <p>the staggering hotel located on <?= $_ENV['ISLAND_NAME'] ?></p>
      </header>
 
      <main>
+          <article>
+               <h2>Economy</h2>
+          </article>
 
+          <article>
+               <h2>Standard</h2>
+          </article>
+
+          <article>
+               <h2>Luxury</h2>
+          </article>
      </main>
 </body>
 
