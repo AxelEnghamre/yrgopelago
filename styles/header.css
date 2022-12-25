@@ -1,0 +1,8 @@
+/* styling for the main header */
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, var(--crayola), var(--puff));
+  display: grid;
+  place-items: center;
+}
