@@ -1,0 +1,8 @@
+CREATE TABLE Texts (
+	id INT,
+	title VARCHAR(50),
+	name VARCHAR(50) UNIQUE,
+	text LONGTEXT,
+
+	PRIMARY KEY (id)
+);
