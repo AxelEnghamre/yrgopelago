@@ -2,15 +2,10 @@
 
 declare(strict_types=1);
 
-// Always require autoload when using packages
-require(__DIR__ . '/vendor/autoload.php');
+require_once(__DIR__ . '/src/classes/app.php');
 
-// Tell PHP to use this fine package
-use Dotenv\Dotenv;
+$app = new app;
 
-// "Connect" to .env and load it's content into $_ENV
-$dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
 ?>
 
 
